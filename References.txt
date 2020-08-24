@@ -1,0 +1,4 @@
+Esto es un archivo de referencias. Se listan:
+
+- Language Switch - https://codepen.io/cooljockey/pen/jqRpdL
+- Skrollr - https://github.com/Prinzhorn/skrollr

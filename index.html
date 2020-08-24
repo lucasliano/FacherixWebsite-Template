@@ -1,4 +1,56 @@
-<!DOCTYPE html>
-<head>
-  <title>This is super Fachero</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+
+    <title>Personal Website!</title>
+  </head>
+  <body>
+    <h1>Hi, we are S&L!</h1>
+		<h1>Falta agregar archivos de Skrollr</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+		<!-- Skrollr configuration -->
+		<script>
+			var mobile= 768;
+			var plugin=skrollr.init({
+					forceHeight:false,
+					render:function(data){console.log(data.curTop);}
+				});
+			$(window).resize(function(){redimensionar();});
+			redimensionar();
+			function redimensionar(){
+				var anchoVentana=$(window).width();
+				if(anchoVentana<=mobile-17||screen.width<=mobile)
+				{
+					skrollr.init().destroy();
+				}else
+				{
+					var plugin=skrollr.init({
+						forceHeight: false,
+						render: function(data) {console.log(data.curTop);}
+					});
+				}
+			}
+		</script>
+		<!--END Skrollr configuration -->
+	</body>
+</html>
