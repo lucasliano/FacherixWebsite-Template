@@ -17,14 +17,21 @@
 
     <!-- Archivos propios -->
     <link rel="stylesheet" href="estilo.css">
-
-
+      <!-- Fonts -->
+        <!-- Título --> <!-- font-family: 'Pacifico', cursive; -->
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <!-- Navbar Menu --> <!-- font-family: 'Fira Sans', sans-serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap" rel="stylesheet">
+        <!-- Subtítulo --> <!-- font-family: 'Lexend Peta', sans-serif; -->
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+      <!-- PDFviwer -->
+        <script src="js/pdfobject.js"></script>
   </head>
 
   <!-- Inicio body -->
   <body>
     <!-- Inicio Header -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <p class="navbar-brand" href="#">Lucas Liaño</p>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,13 +50,16 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Coding Challenge?
+              Coding
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Portfolio</a>
+              <a class="dropdown-item" href="#">Challenge?</a>
+              <a class="dropdown-item" href="#">???</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Downloads</a>
           </li>
         </ul>
       </div>
@@ -62,8 +72,8 @@
     	<section id="Intro" data-center="background-position: center 0px;"
              data-top-bottom="background-position: center -100px;">
 
-    		<div class="container">
-
+    		<div class="container" id="PDFviwer1">
+          <script>PDFObject.embed("pdf/JAR 2019.pdf", "#PDFviwer1");</script>
     		</div>
     	</section>
     </article>

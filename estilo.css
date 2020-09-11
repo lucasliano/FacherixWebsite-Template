@@ -14,26 +14,33 @@ font-family: 'Bebas Neue', cursive;font-family: 'Bebas Neue', cursive;
 
 
 .navbar{
-  background-color: rgba(29, 37, 35, 0.75);    /* Color: #1D2523 */
+  /*background-color: rgba(29, 37, 35, 0.75);    /* Color: #1D2523 */
+  background-color: white;
+  color: #333333; /* Gris */
   padding: .5rem 2rem;
 }
 
 
+.pdfobject-container{
+  height: 40rem;
+  border: none;
+}
+
 
 .navbar a{
-  font-family: serif,Helvetica,Arial,sans-serif;
-  font-size: 13px;
-  font-weight: 800;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .navbar-brand {
-  font-family: Brush Script MT;
+  font-family: 'Pacifico', cursive;
   font-size: 30px;
-  font-weight: 800;
-  letter-spacing: 0px;
-  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: none;
 
 }
 
@@ -102,8 +109,8 @@ navbar-expand-md .navbar-nav .nav-lin{
 }
 
 .footer{
-  color: beige;
-	background-color: #333333;
+  color: #333333;
+  background-color: white;
   padding-top: 1rem;
   padding-right: 2rem;
   padding-bottom: 1rem;
@@ -116,7 +123,7 @@ navbar-expand-md .navbar-nav .nav-lin{
 }
 
 .socialItem a{
-  color: white;
+  color: #333333;
 }
 
 
