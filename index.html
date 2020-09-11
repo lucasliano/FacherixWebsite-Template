@@ -15,210 +15,137 @@
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
-
-    <title>Personal Website!</title>
-		<style type="text/css">
-			* {
-				padding:0;
-				margin:0;
-			}
-
-			html, body {
-				height:100%;
-			}
-
-			.skrollr-desktop body {
-				height:100% !important;
-			}
-
-			body {
-				font-family:sans-serif;
-			}
-
-			p {
-				margin:1em 0;
-			}
-
-			.parallax-image-wrapper {
-				position:fixed;
-				left:0;
-				width:100%;
-				overflow:hidden;
-			}
-
-			.parallax-image-wrapper-50 {
-				height:50%;
-				top:-50%;
-			}
-
-			.parallax-image-wrapper-100 {
-				height:100%;
-				top:-100%;
-			}
-
-			.parallax-image {
-				display:none;
-				position:absolute;
-				bottom:0;
-				left:0;
-				width:100%;
-				background-repeat:no-repeat;
-				background-position:center;
-				background-size:cover;
-			}
-
-			.parallax-image-50 {
-				height:200%;
-				top:-50%;
-			}
-
-			.parallax-image-100 {
-				height:100%;
-				top:0;
-			}
-
-			.parallax-image.skrollable-between {
-				display:block;
-			}
-
-			.no-skrollr .parallax-image-wrapper {
-				display:none !important;
-			}
-
-			#skrollr-body {
-				height:100%;
-				overflow:visible;
-				position:relative;
-			}
-
-			.gap {
-				background:transparent center no-repeat;
-				background-size:cover;
-			}
-
-			.skrollr .gap {
-				background:transparent !important;
-			}
-
-			.gap-50 {
-				height:50%;
-			}
-
-			.gap-100 {
-				height:100%;
-			}
-
-			.header, .content {
-				background:#fff;
-				padding:1em;
-
-				-webkit-box-sizing:border-box;
-				-moz-box-sizing:border-box;
-				box-sizing:border-box;
-			}
-
-			.content-full {
-				height:100%;
-			}
-
-			#done {
-				height:100%;
-			}
-		</style>
-
-
+    <!-- Archivos propios -->
+    <link rel="stylesheet" href="estilo.css">
 
 
   </head>
+
+  <!-- Inicio body -->
   <body>
-    <h1>Hi, we are S&L!</h1>
-		<h1>Falta agregar archivos de Skrollr</h1>
+    <!-- Inicio Header -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+      <p class="navbar-brand" href="#">Lucas Liaño</p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-		<div
-		class="parallax-image-wrapper parallax-image-wrapper-100"
-		data-anchor-target="#dragons + .gap"
-		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
-		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/img1.jpg)"
-				data-anchor-target="#dragons + .gap"
-				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
-				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
-			></div>
-			<!--the +/-80% translation can be adjusted to control the speed difference of the image-->
-		</div>
-
-		<div
-			class="parallax-image-wrapper parallax-image-wrapper-100"
-			data-anchor-target="#bacons + .gap"
-			data-bottom-top="transform:translate3d(0px, 200%, 0px)"
-			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/img2.jpg)"
-				data-anchor-target="#bacons + .gap"
-				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
-				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
-			></div>
-		</div>
-
-		<div
-			class="parallax-image-wrapper parallax-image-wrapper-50"
-			data-anchor-target="#kittens + .gap"
-			data-bottom-top="transform:translate3d(0px, 300%, 0px)"
-			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-
-			<div
-				class="parallax-image parallax-image-50"
-				style="background-image:url(images/img3.jpg)"
-				data-anchor-target="#kittens + .gap"
-				data-bottom-top="transform: translate3d(0px, -60%, 0px);"
-				data-top-bottom="transform: translate3d(0px, 60%, 0px);"
-			></div>
-		</div>
+      <div class="collapse navbar-collapse menu justify-content-end"  id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publications</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Coding Challenge?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Fin Header -->
 
 
-		<div id="skrollr-body">
-			<div class="header" id="dragons">Skrollr demo of classic parallax sections. Degrades without JavaScript (could be disabled on mobile without breaking everything).</div>
-			<div class="gap gap-100" style="background-image:url(images/img1.jpg);"></div>
-			<div class="content" id="bacons">
-				<p>Landjaeger chicken ham fatback sausage hamburger, tri-tip capicola pastrami pancetta ribeye turducken. Rump shank turkey pig kevin sausage meatloaf tenderloin drumstick short ribs short loin. Prosciutto spare ribs chuck, pork strip steak pork chop swine bacon turkey shoulder andouille. Jowl landjaeger chicken corned beef. Ham hock kielbasa pancetta ground round sausage. Spare ribs porchetta pastrami filet mignon drumstick ball tip. Beef ribs prosciutto kevin, landjaeger shoulder ham hock ham brisket sirloin chuck t-bone drumstick kielbasa pork chop.</p>
+    <!-- Inicio Intro -->
+    <article class="Intro">
+    	<section id="Intro" data-center="background-position: center 0px;"
+             data-top-bottom="background-position: center -100px;">
 
-				<p>Landjaeger spare ribs chicken ball tip, filet mignon frankfurter ribeye tenderloin corned beef. Strip steak boudin pork loin, chicken turkey ball tip beef ribs ground round shank ham hock. Kevin capicola beef, chuck pork chop shoulder brisket doner meatloaf shank ham hock tenderloin. Chuck ham hock short ribs ground round sausage prosciutto shoulder bacon andouille tri-tip beef biltong filet mignon chicken. Pork belly andouille shank, bacon sausage meatloaf bresaola pork chop short ribs t-bone. Ham hock salami porchetta bacon beef turkey, strip steak kielbasa pancetta brisket meatball t-bone.</p>
+    		<div class="container">
 
-				<p>Chicken pancetta capicola chuck, turkey meatball jerky frankfurter kielbasa ball tip bacon ground round. Beef ribs brisket meatloaf short ribs landjaeger shankle spare ribs sausage, pancetta swine sirloin flank. Tail shank chuck pancetta, ham meatloaf short ribs sausage rump turkey kevin pork chop landjaeger. Doner boudin short ribs t-bone, jerky shankle bresaola drumstick. Strip steak shank spare ribs boudin doner short ribs. Boudin prosciutto jowl tenderloin tongue beef ribs, short ribs salami short loin strip steak ham jerky. Shank pancetta beef ribs, corned beef ham hock pork belly drumstick tail bresaola chuck.</p>
-			</div>
-			<div class="gap gap-100" style="background-image:url(images/img2.jpg);"></div>
-			<div class="content content-full" id="kittens">Here be kittens</div>
-			<div class="gap gap-50" style="background-image:url(images/img3.jpg);"></div>
-			<div class="content" id="done">Images from <a href="http://placekitten.com/attribution.html">http://placekitten.com/</a>, thanks!</div>
-		</div>
+    		</div>
+    	</section>
+    </article>
+    <!-- Fin Intro -->
+
+    <!--incio de footer-->
+    <footer>
+      <div class="container-fluid footer">
+        <div class="row pt-4">
+          <div class="container justify-content-center">
+  					<!-- <p style="font-style: italic;" class="redes text-center">Redes Sociales</p> -->
+
+  					<div class="social d-flex justify-content-center">
+  						<ul class="navbar-nav" style="display: contents;">
+
+  							<li class="nav-item socialItem">
+  								<a class="nav-link" href="https://instagram.com/GoPro" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+  							</li>
+  							<li class="nav-item socialItem">
+  								<a class="nav-link" href="https://www.facebook.com/gopro" target="_blank" title="Facebook"><i class="fab fa-github"></i></a>
+  							</li>
+  							<li class="nav-item socialItem">
+  								<a class="nav-link" href="https://twitter.com/gopro" target="_blank" title="Twitter"><i class="fab fa-linkedin"></i></a>
+  							</li>
+  							<li class="nav-item socialItem">
+  								<a class="nav-link" href="https://ar.pinterest.com/GoPro/" target="_blank" title="Pinterest"><i class="fas fa-terminal"></i></a>
+  							</li>
+  							<li class="nav-item socialItem">
+  								<a class="nav-link" href="https://www.youtube.com/GoProCamera" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+  							</li>
+
+  					</div>
+  				</div>
+
+  			</div>
+
+
+  			<div class="row">
+  				<div class="container" >
+  					<div>
+  						<ul class="navbar-nav ml-auto">
+  							<li class="nav-item">
+  								<div class="container-fluid justify-content-center">
+  									<div class="container logo d-flex justify-content-center">
+  										<img class="SoloCelus" src="images/fondo1.jpg" alt="logo">
+  									</div>
+  									<div class="container-fluid menu d-flex justify-content-center">
+  										<p>© 2020. Todos los derechos reservados. Desarrollado por Lucas Liaño.</p>
+  									</div>
+  								</div>
+  							</li>
+  						</ul>
+  					</div>
+  				</div>
+  			</div>
+
+
+  		</div>
+  	</footer>
+    <!-- fin de footer-->
 
 
 
 
+    <!-- Inicio de  JavaScript -->
 
-
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 		<!-- Skrollr configuration -->
-
 		<script type="text/javascript" src="js/skrollr.min.js"></script>
 
 		<script>
 			var mobile= 768;
 			var plugin=skrollr.init({
-					forceHeight:true,
-					mobileDeceleration: 0.004,
-					smoothScrolling: true
+					forceHeight:false,
+					mobileDeceleration: 1,//0.004,
+					smoothScrolling: false,
+          smoothScrollingDuration: 200
 				});
 			$(window).resize(function(){redimensionar();});
 			redimensionar();
@@ -229,10 +156,12 @@
 					skrollr.init().destroy();
 				}else
 				{
-					var plugin=skrollr.init({
-						forceHeight: false,
-						render: function(data) {console.log(data.curTop);}
-					});
+          var plugin=skrollr.init({
+    					forceHeight:false,
+    					mobileDeceleration: 1,//0.004,
+    					smoothScrolling: false,
+              smoothScrollingDuration: 200
+    				});
 				}
 			}
 		</script>

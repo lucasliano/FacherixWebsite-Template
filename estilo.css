@@ -1,0 +1,271 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Bebas Neue', cursive;font-family: 'Bebas Neue', cursive;
+*/
+
+*{
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+}
+
+
+.navbar{
+  background-color: rgba(29, 37, 35, 0.75);    /* Color: #1D2523 */
+  padding: .5rem 2rem;
+}
+
+
+
+.navbar a{
+  font-family: serif,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-family: Brush Script MT;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+
+}
+
+.navbar img{
+  max-width: 50%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+navbar-expand-md .navbar-nav .nav-lin{
+	color: chartreuse;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.Intro{
+	background: cover;
+	color: aliceblue;
+  padding:2rem;
+	background: url(images/fondo1.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Mercado{
+	padding: 3rem;
+	background:url(img/fondo4.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+	padding-top:1rem;
+  color: beige;
+
+}
+
+.Mercado button.btn.fondoBlanco{
+  color: white;
+  border-color: white;
+}
+
+.Mercado button.btn.fondoBlanco:hover{
+  background-color: rgba(29, 37, 35, 0.75);
+
+}
+
+.boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+}
+
+.boton img:hover{
+    -webkit-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:.3s ease-in;
+    -o-transition:.3s ease-in;
+    transition:.3s ease-in;
+}
+
+.footer{
+  color: beige;
+	background-color: #333333;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.socialItem{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.socialItem a{
+  color: white;
+}
+
+
+/* Esto es para las resoluciones grandes */
+.container.logo{
+  max-width: 25%;
+}
+.container.menu{
+  max-width: 75%;
+}
+
+.social{
+  font-size:2.2rem;
+}
+
+.SoloCelus{
+  display: none;
+}
+
+h2 {
+    font-size:3rem;
+	  padding:1rem;
+}
+
+h3{
+    padding-top:2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Esto es para las resoluciones con ancho minimo 1200px - Pantallas chicas */
+@media(max-width:1200px){
+    .container-fluid.fixed-top{
+        position: fixed;
+    }
+    .container.logo{
+      max-width: 25%;
+    }
+    .container.menu{
+      max-width: 75%;
+    }
+
+    .social{
+        font-size:2.2rem;
+    }
+    .SoloCelus{
+      display: none;
+    }
+}
+
+@media(min-width:1200px){
+
+    h2 {
+        font-size:2rem;
+    }
+    h3{
+        padding-top:1rem;
+    }
+}
+
+/* Esto es para las resoluciones con ancho menor a 768px - iPad*/
+@media(max-width:800px){
+    .container-fluid.fixed-top{
+        position: fixed;
+    }
+    .container.logo{
+      max-width: 25%;
+    }
+    .container.menu{
+      max-width: 75%;
+    }
+    .social{
+        font-size:2.2rem;
+    }
+    .SoloCelus{
+      display: none;
+    }
+}
+@media(min-width:800px){
+
+    h2 {
+        font-size:2rem;
+    }
+
+    h3{
+        padding-top:1rem;
+    }
+}
+
+/* Esto es para las resoluciones con ancho minimo 500px - Celulares grandes*/
+@media(max-width:500px){
+    .container-fluid.fixed-top{
+        position: static;
+    }
+    .container.logo{
+      max-width: 50%;
+    }
+    .container.menu{
+      max-width: 50%;
+    }
+    .social{
+        font-size:1.2rem;
+    }
+    .SoloCelus{
+      display: inherit;
+    }
+
+}
+
+@media(min-width:500px){
+    .contacto{
+        padding:1rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+    h3{
+        padding-top:2rem;
+    }
+}
+
+/* Esto es para las resoluciones con ancho minimo 360px - Celulares (iPhone/Samsung s9)*/
+@media(max-width:360px){
+    .container-fluid.fixed-top{
+        position: static;
+    }
+    .container.logo{
+      max-width: 50%;
+    }
+    .container.menu{
+      max-width: 50%;
+    }
+    .social{
+        font-size:1.2rem;
+    }
+    .SoloCelus{
+      display: inherit;
+    }
+
+}
+
+@media(min-width:360px){
+
+    .contacto{
+        padding:1rem;
+    }
+    h2 {
+        font-size:3rem;
+    }
+    h3{
+        padding-top:2rem;
+    }
+}
