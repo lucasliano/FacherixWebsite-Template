@@ -44,6 +44,12 @@ font-family: 'Bebas Neue', cursive;font-family: 'Bebas Neue', cursive;
 
 }
 
+p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
 .navbar img{
   max-width: 50%;
   height: auto;

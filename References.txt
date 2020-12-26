@@ -8,3 +8,4 @@ Esto es un archivo de referencias. Se listan:
 - Iconos - https://mdbootstrap.com/docs/jquery/content/icons-list/
 - PDFviwer - https://pdfobject.com
 - nbviewer (jupyter notebooks) - https://thedatafrog.com/en/articles/jupyter-notebooks-web-pages/
+- Registrar Autoria - https://www.argentina.gob.ar/registrar-una-pagina-web
