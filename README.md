@@ -155,9 +155,7 @@ Project Link: [https://github.com/lucasliano/FacherixWebsite-Template](https://g
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
 
 
