@@ -174,7 +174,7 @@ Project Link: [https://github.com/lucasliano/FacherixWebsite-Template](https://g
 [issues-shield]: https://img.shields.io/github/issues/lucasliano/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/lucasliano/FacherixWebsite-Template/issues
 [license-shield]: https://img.shields.io/github/license/lucasliano/repo.svg?style=for-the-badge
-[license-url]: https://github.com/lucasliano/FacherixWebsite-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/lucasliano/FacherixWebsite-Template/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lucas-liaño-086b1514a/
 [product-screenshot]: others/screenshot.png
