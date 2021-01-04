@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lucasliano/FacherixWebsite-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="others/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Website Template</h3>
@@ -44,6 +44,11 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
     <li>
@@ -64,10 +69,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Personal Website Screen Shot][product-screenshot]](https://example.com)
+<!-- ABOUT THE PROJECT -->imagesebsite-Template.git)
 
 Este proyecto tiene como finalidad presentar un template sencillo pero con prestaciones interesantes para utilizar como carta de presentación personal.
 
@@ -81,10 +83,7 @@ Este proyecto tiene como finalidad presentar un template sencillo pero con prest
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
+k
 
 This is an example of how to list things you need to use the software and how to install them.
 * apt-get
@@ -164,14 +163,15 @@ Project Link: [https://github.com/lucasliano/FacherixWebsite-Template](https://g
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/lucasliano/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/lucasliano/repo/graphs/contributors
+[contributors-url]: https://github.com/lucasliano/FacherixWebsite-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lucasliano/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/lucasliano/repo/network/members
+[forks-url]: https://github.com/lucasliano/FacherixWebsite-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/lucasliano/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/lucasliano/repo/stargazers
+[stars-url]: https://github.com/lucasliano/FacherixWebsite-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/lucasliano/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/lucasliano/repo/issues
+[issues-url]: https://github.com/lucasliano/FacherixWebsite-Template/issues
 [license-shield]: https://img.shields.io/github/license/lucasliano/repo.svg?style=for-the-badge
-[license-url]: https://github.com/lucasliano/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/lucasliano/FacherixWebsite-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lucas-liaño-086b1514a/
+[product-screenshot]: others/screenshot.png
