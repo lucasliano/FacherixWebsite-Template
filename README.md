@@ -69,7 +69,10 @@
 
 
 
-<!-- ABOUT THE PROJECT -->imagesebsite-Template.git)
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Personal Website Screen Shot][product-screenshot]](https://github.com/lucasliano/FacherixWebsite-Template.git)
 
 Este proyecto tiene como finalidad presentar un template sencillo pero con prestaciones interesantes para utilizar como carta de presentación personal.
 
